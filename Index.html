@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Registro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <section>
+      <h1>Create Account</h1>
+    </section>
+
+    <section>
+      <div class="form-container">
+        <form id="formulario" action="">
+
+          <label for="nombre">Nombre</label>
+          <input  id="nombreInput" type="text">
+          <div id="nombreError" class="error-container"> </div>
+
+
+          <label for="email">Email</label>
+          <input id="emailInput"  type="email">
+          <div id="emailError" class="error-container"></div>
+        
+
+          <label for="clave">Clave</label>
+          <input id="claveInput" type="password">
+          <div id="claveError" class="error-container"></div>
+      
+
+          <label for="confirmeclave">Confirme su clave</label>
+          <input id="confirmeclaveInput" type="password">
+          <div id="confirmeclaveError" class="error-container"></div>
+      
+        
+
+          <input id="boton" type="submit"  value="ENVIAR">
+
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="./index.js"></script>
+  
+  
+</body>
+</html>

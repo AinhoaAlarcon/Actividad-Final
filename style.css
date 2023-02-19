@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*GENERALES*/
+*
+{
+  padding: 0%;
+  margin: auto;
+}
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(9, 17, 31, 0.893);
+}
+
+/*FORMULARIO*/
+
+.main-container
+{
+  border: 4px solid rgba(120, 120, 159, 0.324);
+  max-width: 560px;
+  margin: 550px auto;
+  background-color:rgba(63, 68, 98, 0.37);
+  border-radius: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+}
+
+/*TÍTULO*/
+
+h1
+{
+  color: hsl(221, 47%, 75%);
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+/*NOMBRES ETIQUETAS*/
+
+.form-container label
+{
+  color: hsla(221, 47%, 75%, 0.741);
+  font-size: 24px;
+  font-weight:lighter;
+
+}
+
+/*CAJETILLAS*/
+
+input
+{
+  width: 95%;
+  height: 75px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 4px;;
+  padding: auto;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  border-radius: 6px;
+}
+
+/*BOTON ENVIAR*/
+
+input[type="submit"]
+{
+  margin-top: 10px;
+  height: 80px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: white;
+  background-color:rgb(111, 99, 241);
+  border: 4px solid rgba(0, 0, 0, 0.745);
+}
+
+/*CONTENERDOR DEL ERROR*/
+
+.error-container
+{
+  position: relative;
+  
+}
+
+.icon-error
+{
+  position: absolute;
+  right: 15px;
+  top: -70px;
+  height: 32px;
+
+}
+
+.icon-success
+{
+  position: absolute;
+  right: 15px;
+  top: -110px;
+  height: 32px;
+}
+
+.error
+{
+  color: rgb(221, 85, 85);
+  font-size: 22px;
+  margin-top: -40px;
+  margin-bottom: 10px;;
+}
